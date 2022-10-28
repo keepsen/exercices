@@ -25,7 +25,7 @@
             </div>
             <div class="form-group">
             <label for="email">Votre courriel </label>
-            <input  type="text" name="email" placeholder="Email" class="form-control" value="{{ old('email') }}" required>
+            <input  type="email" name="email" placeholder="Email" class="form-control" value="{{ old('email') }}" required>
             </div>
             <button type="submit" class="btn btn-primary">Soumettre</button>
         </form>
