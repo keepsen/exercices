@@ -1,0 +1,27 @@
+/* feuille de style pour l'exercice 2 */
+/*Initialisation body*/
+body{
+    margin: 0;
+}
+/*Proriétes css sur la boite parent */
+#container{
+    display: flex;
+    justify-content: center;
+}
+/* Proriétes css sur la boite enfant */
+#container div{
+    margin-top: 30px;
+}
+/* Proriétes css sur les boutons */
+#container div button{
+    padding: 10px 15px;
+    background: #003366;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+#container div button:hover{
+    opacity: .9;
+}

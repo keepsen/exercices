@@ -1,0 +1,19 @@
+/* feuille de style pour l'exercice 1 */
+/*Initialisation body*/
+body{
+    margin: 0;
+}
+/*Proriétes css sur la boite parent */
+#container{
+    background: #003366;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Proriétes css sur la boite enfant */
+#container div{
+    width: 250px;
+    height: 250px;
+    background: #eee;
+}
