@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+}
+#container{
+    display: flex;
+    justify-content: center;
+}
+.main-content{
+    width: 60%;
+    max-width: 600px;
+    min-height: 250px;
+    background: #F5F5F5;
+    margin-top: 30px;
+}
+.main-form, .main-list{
+    margin: 20px;
+}
+.main-form button{
+   text-transform: uppercase;
+}
+
